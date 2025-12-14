@@ -28,15 +28,56 @@
 
 ## 프로젝트 구조
 ```
-Assets/
-├── Scripts/
-│ ├── Managers/ # 싱글톤 매니저 (GameManager 등)
-│ └── Animation/ # 애니메시연 관리
-│ └── Entity/ # 유닛, 몬스터 관리
-│ └── UI/ # UI 관리
-│ ├── Gacha/ # 확률형 시스템 관리
-└── 
-```
+📦 2DDefence
+└── 📂 Assets
+    └── 📂 Scripts
+        ├── 📜 Setting.cs
+        ├── 📂 Animation
+        │   └── 📜 AnimationLengthFetcher.cs
+        ├── 📂 Data
+        │   ├── 📂 Agument
+        │   │   ├── 📜 AgumetnData.cs
+        │   │   └── 📜 AgumentDatabase.cs
+        │   ├── 📂 Potential
+        │   │   ├── 📜 Potential.cs
+        │   │   ├── 📜 PotentialData.cs
+        │   │   ├── 📜 PotentialDatabase.cs
+        │   ├── 📂 Skill
+        │   │   ├── 📜 ActiveSkillData.cs
+        │   │   ├── 📜 DebuffSkillData.cs
+        │   │   ├── 📜 PassiveSkillData.cs
+        │   │   ├── 📜 SkillData.cs
+        │   │   ├── 📜 SkillDatabase.cs
+        │   ├── 📂 Entity
+        │   │   ├── 📂 Enemy
+        │   │   │   ├── 📜 Enemy.cs
+        │   │   │   └── 📜 Boss.cs
+        │   │   ├── 📂 Projectile
+        │   │   │   ├── 📜 Arrow.cs
+        │   │   │   ├── 📜 EnergyBall.cs
+        │   │   │   └── 📜 FireFlooring.cs
+        │   │   ├── 📂 Spirit
+        │   │   │   └── 📜 Spirit.cs
+        │   │   ├── 📂 Unit
+        │   │   │   ├── 📜 Magician.cs
+        │   │   │   ├── 📜 Ranger.cs
+        │   │   │   ├── 📜 Warrior.cs
+        │   │   │   ├── 📜 Shielder.cs
+        │   │   │   ├── 📜 Unit.cs
+        │   │   │   ├── 📜 UnitRoot.cs
+        │   │   │   └── 📜 UnitClass.cs
+        │   │   └── 📜 Move.cs
+        └── 📂 Manager
+             ├── 📜 AudioManager.cs
+             ├── 📜 AugmentManager.cs
+             ├── 📜 GameManager.cs
+             ├── 📜 LogManager.cs
+             ├── 📜 PotentialManager.cs
+             ├── 📜 SkillManager.cs
+             ├── 📜 UnitManager.cs
+             ├── 📜 UnitSpawnManager.cs
+             └── 📜 WayPointManager.cs
+      
 
 ## 실행 방법
 
