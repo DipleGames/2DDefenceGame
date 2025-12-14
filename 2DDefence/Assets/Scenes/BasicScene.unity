@@ -1571,7 +1571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 102241208}
   m_Layer: 0
-  m_Name: Factory_Group
+  m_Name: Growth_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12382,7 +12382,7 @@ GameObject:
   - component: {fileID: 714558521}
   - component: {fileID: 714558522}
   m_Layer: 0
-  m_Name: UnitValue_Factory
+  m_Name: UnitValue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15353,7 +15353,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 261708460}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.98926866
+  m_Size: 0.9999844
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -26922,7 +26922,7 @@ GameObject:
   - component: {fileID: 1465429068}
   - component: {fileID: 1465429066}
   m_Layer: 0
-  m_Name: Upgrade_Factory
+  m_Name: Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35369,7 +35369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000076293945}
+  m_AnchoredPosition: {x: 0, y: 0.0000076293945}
   m_SizeDelta: {x: 0, y: 180}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1905877321
@@ -36556,7 +36556,7 @@ GameObject:
   - component: {fileID: 1998013648}
   - component: {fileID: 1998013649}
   m_Layer: 0
-  m_Name: Skill_Factory
+  m_Name: Skill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
