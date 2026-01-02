@@ -9,8 +9,6 @@ using System.Runtime.CompilerServices;
 
 public class Enemy : MonoBehaviour
 {
-    public static Enemy Instance;
-
     private int _waveNumber;
 
     // 에너미 스텟
@@ -34,11 +32,6 @@ public class Enemy : MonoBehaviour
     public bool isDead = false;
 
     Animator animator;
-
-    void Awake()
-    {
-        Instance = this;
-    }
 
     protected virtual void Start()
     {
